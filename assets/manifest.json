@@ -1,0 +1,109 @@
+{
+    "name": "GitSnap - Zero-Cost Image Cloud",
+    "short_name": "GitSnap",
+    "description": "Free, unlimited image storage with passwordless authentication. Upload, download, and manage your photos from anywhere.",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#4f46e5",
+    "background_color": "#f8fafc",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en-US",
+    "dir": "ltr",
+    "categories": ["photography", "productivity", "utilities"],
+    "prefer_related_applications": false,
+    "icons": [
+      {
+        "src": "/assets/icons/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-96x96.png",
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-144x144.png",
+        "sizes": "144x144",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-152x152.png",
+        "sizes": "152x152",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-384x384.png",
+        "sizes": "384x384",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/assets/icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "/assets/screenshots/desktop-dashboard.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Desktop dashboard view showing gallery"
+      },
+      {
+        "src": "/assets/screenshots/mobile-upload.png",
+        "sizes": "720x1280",
+        "type": "image/png",
+        "form_factor": "narrow",
+        "label": "Mobile upload interface"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Upload Images",
+        "short_name": "Upload",
+        "description": "Quickly upload new images to your gallery",
+        "url": "/dashboard.html?action=upload",
+        "icons": [
+          {
+            "src": "/assets/icons/upload-icon.png",
+            "sizes": "96x96"
+          }
+        ]
+      },
+      {
+        "name": "View Gallery",
+        "short_name": "Gallery",
+        "description": "Browse your image collection",
+        "url": "/dashboard.html",
+        "icons": [
+          {
+            "src": "/assets/icons/gallery-icon.png",
+            "sizes": "96x96"
+          }
+        ]
+      }
+    ],
+    "related_applications": [],
+    "display_override": ["standalone", "minimal-ui"]
+  }

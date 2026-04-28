@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery - GitSnap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">📸</span>
+                <span class="logo-text">GitSnap</span>
+            </a>
+            <div class="user-info">
+                <span id="userNameDisplay"></span>
+                <button id="logoutBtn" class="btn-logout">🚪 Sign Out</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+        <div class="dashboard-header">
+            <h1>My Image Gallery</h1>
+            <p id="userStats"></p>
+        </div>
+
+        <!-- Upload Section -->
+        <div class="upload-section glass-panel">
+            <h3>📤 Upload New Images</h3>
+            <div id="dropzone" class="upload-area">
+                📎 Drag & drop images here or click to select
+                <br>
+                <small>JPEG, PNG, WEBP, GIF (max 10MB each)</small>
+                <input type="file" id="fileInput" multiple accept="image/*" style="display:none">
+            </div>
+            <div id="queuePreview" class="queue-preview"></div>
+            <div class="upload-actions">
+                <button id="clearQueueBtn" class="btn btn-outline">Clear Queue</button>
+                <button id="uploadAllBtn" class="btn btn-primary">Upload All Images</button>
+            </div>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery-section glass-panel">
+            <div class="gallery-header">
+                <h3>🖼️ Your Photos</h3>
+                <button id="refreshGalleryBtn" class="btn-refresh">⟳ Refresh</button>
+            </div>
+            <div id="galleryGrid" class="gallery-grid">
+                <div class="loading-spinner">Loading your memories...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+    <script src="github-storage.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>

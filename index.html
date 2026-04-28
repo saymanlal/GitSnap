@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitSnap - Zero Cost Image Cloud</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/assets/manifest.json">
+    <meta name="description" content="Free, unlimited image storage using blockchain-inspired file authentication. No passwords, no servers, no costs.">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">📸</span>
+                <span class="logo-text">GitSnap</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="auth.html" class="btn-nav btn-primary-nav">Sign In</a>
+                <a href="auth.html?signup=true" class="btn-nav btn-outline-nav">Sign Up</a>
+            </div>
+            <div class="mobile-menu-btn" id="mobileMenuBtn">☰</div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Infinite <span class="gradient-text">Image Cloud</span>
+                        <br>For Zero Dollars
+                    </h1>
+                    <p class="hero-subtitle">
+                        Store, share, and manage your photos forever. No subscription fees. 
+                        No hidden costs. Just pure, unlimited storage powered by innovative technology.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="auth.html?signup=true" class="btn btn-primary btn-large">
+                            🚀 Start Free → 
+                        </a>
+                        <a href="#how-it-works" class="btn btn-outline btn-large">
+                            How it works
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">∞</span>
+                            <span class="stat-label">Free Storage</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Privacy</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">0$</span>
+                            <span class="stat-label">Lifetime</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-cards">
+                        <div class="card card-1">📸</div>
+                        <div class="card card-2">🖼️</div>
+                        <div class="card card-3">✨</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose GitSnap?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔐</div>
+                        <h3>No Passwords Ever</h3>
+                        <p>Sign up with your name, get a unique secret key file. That's your identity. No database, no hackable passwords.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💾</div>
+                        <h3>File-Based Auth</h3>
+                        <p>Your secret key is stored locally. To log in on another device, just upload the key file. Zero backend required.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📤</div>
+                        <h3>Original Quality</h3>
+                        <p>Upload and download images in full quality. No compression, no watermarks, no bullshit.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🗑️</div>
+                        <h3>Full Control</h3>
+                        <p>Delete your photos anytime. They're gone forever. You own your data completely.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Access Anywhere</h3>
+                        <p>Log in from any device using your secret key file. Your entire gallery follows you.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Lazy loading, CDN delivery, and optimized galleries for instant access.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Spoiler: It's completely free. Forever.</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card popular">
+                        <div class="pricing-badge">✨ Forever Free</div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">/ lifetime</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>✓ Unlimited image uploads</li>
+                            <li>✓ Original quality storage</li>
+                            <li>✓ Download & delete anytime</li>
+                            <li>✓ Access from any device</li>
+                            <li>✓ No ads, no tracking</li>
+                            <li>✓ Lifetime support</li>
+                        </ul>
+                        <a href="auth.html?signup=true" class="btn btn-primary btn-block">Get Started →</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-badge">Enterprise</div>
+                        <div class="pricing-price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">/ coming soon</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>✓ Everything in Free</li>
+                            <li>✓ Team collaboration</li>
+                            <li>✓ Custom branding</li>
+                            <li>✓ Priority support</li>
+                        </ul>
+                        <button class="btn btn-outline btn-block" disabled>Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2 class="section-title">How GitSnap Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Sign Up</h3>
+                        <p>Enter your name. Download your unique secret key file. That's it.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Upload Photos</h3>
+                        <p>Drag & drop images. They're stored in original quality.</p>
+                    </div>
+                    <div class="step-arrow">→</div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Access Anywhere</h3>
+                        <p>Upload your secret key file on any device to access your gallery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="logo">📸 GitSnap</div>
+                <p>Zero-cost image cloud storage for everyone.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Product</h4>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#how-it-works">How it works</a>
+            </div>
+            <div class="footer-column">
+                <h4>Support</h4>
+                <a href="#">FAQ</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-column">
+                <h4>Legal</h4>
+                <a href="#">Terms of Service</a>
+                <a href="#">Data Policy</a>
+                <a href="#">GDPR</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 GitSnap. Zero investment, infinite possibilities.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
